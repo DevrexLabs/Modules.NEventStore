@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>OrigoDB.NEventStore</id>
+    <title>NEventStore command storage for OrigoDB</title>
+    <version>0.1.0</version>
+    <authors>Robert Friberg</authors>
+    <copyright>Copyright Devrex Labs</copyright>
+    <summary>OrigoDB command journaling using NEventStore persistence</summary>
+    <description> OrigoDB command journaling using NEventStore</description>
+    <projectUrl>https://github.com/devrexlabs/modules.neventstore</projectUrl>
+    <licenseUrl>https://github.com/devrexlabs/origodb#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/devrexlabs/modules.neventstore/releases</releaseNotes>
+    <tags>in-memory imdb nosql odbms database imc</tags>
+    <dependencies>
+	<dependency id="origodb.core" version="0.15.0"/>
+	<dependency id="eventstore.client" version="2.0.2"/>
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="build\OrigoDB.Modules.NEventStore.dll" target="lib\net40" />
+    <file src="src\OrigoDB.Modules.NEventStore\**\*.cs" target="src" />
+  </files>
+</package>

@@ -1,12 +1,9 @@
 Modules.NEventStore
 ===================
 
-OrigoDB storage module adapter for NEventStore.
+OrigoDB storage module adapter for NEventStore, see http://github.com/NEventStore
 
 OrigoDB is the in-memory database toolkit for NET/Mono. See http://devrexlabs.github.io
-
-From the readme at http://github.com/NEventStore
-	"NEventStore is a persistence library used to abstract different storage implementations when using event sourcing as storage mechanism"
 
 NEventStore supports mssql, mysql, postgresql, oracle and sqlite, ravendb and mongodb.
 
